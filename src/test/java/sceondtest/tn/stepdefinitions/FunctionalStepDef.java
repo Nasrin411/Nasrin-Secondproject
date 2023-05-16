@@ -27,7 +27,7 @@ public class FunctionalStepDef extends ParentClass {
 
 	@When("Users Able To Click On Products Module")
 	public void users_able_to_click_on_products_moduple() {
-		 pf.getClickOnProduct().click();
+		// pf.getClickOnProduct().click();
 		
 		CommonUtil.actionClick(pf.getClickOnProduct()); 
 		
