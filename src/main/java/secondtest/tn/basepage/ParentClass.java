@@ -73,10 +73,10 @@ public static WebDriver driver;
 		WebDriver driver = new ChromeDriver();  // ( this line called upcasting)
 	    driver.get("https://automationexercise.com/login");
 	    driver.manage().window().maximize();
-	    driver.findElement(By.xpath("//input[@name='email']")).sendKeys("tanvirpatwary16@gmail.com");
 	    driver.findElement(By.xpath("//input[@type='password']")).sendKeys("Tester01");
 	    driver.findElement(By.xpath("//button[@type='submit']")).click();
-	   String text =  driver.findElement(By.xpath("//*[text()=' Home']")).getText();
+	    driver.findElement(By.xpath("//input[@name='email']")).sendKeys("tanvirpatwary16@gmail.com");
+	      String text =  driver.findElement(By.xpath("//*[text()=' Home']")).getText();
 	   System.out.println("visibility text::"+text);   
 		Assert.assertEquals("Home", text); 
 	}  */

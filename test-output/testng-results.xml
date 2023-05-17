@@ -2,24 +2,77 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-16T15:26:08Z" name="Default suite" finished-at="2023-05-16T15:26:09Z" duration-ms="31">
+  <suite started-at="2023-05-17T06:46:16Z" name="Suite" finished-at="2023-05-17T06:46:29Z" duration-ms="12948">
     <groups>
     </groups>
-    <test started-at="2023-05-16T15:26:08Z" name="Default test" finished-at="2023-05-16T15:26:09Z" duration-ms="31">
-      <class name="com.TestNGChallenges.DependsOnMethod">
-        <test-method signature="getOpenBrowser()[pri:0, instance:com.TestNGChallenges.DependsOnMethod@54504ecd]" started-at="2023-05-16T15:26:08Z" name="getOpenBrowser" finished-at="2023-05-16T15:26:08Z" duration-ms="8" status="PASS">
+    <test started-at="2023-05-17T06:46:16Z" name="Test1" finished-at="2023-05-17T06:46:19Z" duration-ms="3586">
+      <class name="com.TestNGChallenges.CrossBrowserTesting1">
+        <test-method is-config="true" signature="getOpenBrowser(java.lang.String)[pri:0, instance:com.TestNGChallenges.CrossBrowserTesting1@67d18ed7]" started-at="2023-05-17T06:46:16Z" name="getOpenBrowser" finished-at="2023-05-17T06:46:18Z" duration-ms="1720" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getOpenBrowser -->
-        <test-method signature="getLogIn()[pri:0, instance:com.TestNGChallenges.DependsOnMethod@54504ecd]" started-at="2023-05-16T15:26:09Z" name="getLogIn" finished-at="2023-05-16T15:26:09Z" depends-on-methods="com.TestNGChallenges.DependsOnMethod.getOpenBrowser" duration-ms="1" status="PASS">
+        <test-method signature="getLogIn()[pri:0, instance:com.TestNGChallenges.CrossBrowserTesting1@67d18ed7]" started-at="2023-05-17T06:46:18Z" name="getLogIn" finished-at="2023-05-17T06:46:19Z" duration-ms="1742" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getLogIn -->
-        <test-method signature="getCloseBrowser()[pri:0, instance:com.TestNGChallenges.DependsOnMethod@54504ecd]" started-at="2023-05-16T15:26:09Z" name="getCloseBrowser" finished-at="2023-05-16T15:26:09Z" depends-on-methods="com.TestNGChallenges.DependsOnMethod.getLogIn" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="getCloseBrowser()[pri:0, instance:com.TestNGChallenges.CrossBrowserTesting1@67d18ed7]" started-at="2023-05-17T06:46:19Z" name="getCloseBrowser" finished-at="2023-05-17T06:46:19Z" duration-ms="102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getCloseBrowser -->
-      </class> <!-- com.TestNGChallenges.DependsOnMethod -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.TestNGChallenges.CrossBrowserTesting1 -->
+    </test> <!-- Test1 -->
+    <test started-at="2023-05-17T06:46:19Z" name="Test2" finished-at="2023-05-17T06:46:23Z" duration-ms="3453">
+      <class name="com.TestNGChallenges.CrossBrowserTesting1">
+        <test-method is-config="true" signature="getOpenBrowser(java.lang.String)[pri:0, instance:com.TestNGChallenges.CrossBrowserTesting1@4ae9cfc1]" started-at="2023-05-17T06:46:19Z" name="getOpenBrowser" finished-at="2023-05-17T06:46:20Z" duration-ms="959" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOpenBrowser -->
+        <test-method signature="getLogIn()[pri:0, instance:com.TestNGChallenges.CrossBrowserTesting1@4ae9cfc1]" started-at="2023-05-17T06:46:20Z" name="getLogIn" finished-at="2023-05-17T06:46:23Z" duration-ms="2296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLogIn -->
+        <test-method is-config="true" signature="getCloseBrowser()[pri:0, instance:com.TestNGChallenges.CrossBrowserTesting1@4ae9cfc1]" started-at="2023-05-17T06:46:23Z" name="getCloseBrowser" finished-at="2023-05-17T06:46:23Z" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCloseBrowser -->
+      </class> <!-- com.TestNGChallenges.CrossBrowserTesting1 -->
+    </test> <!-- Test2 -->
+    <test started-at="2023-05-17T06:46:23Z" name="Test3" finished-at="2023-05-17T06:46:29Z" duration-ms="5891">
+      <class name="com.TestNGChallenges.CrossBrowserTesting1">
+        <test-method is-config="true" signature="getOpenBrowser(java.lang.String)[pri:0, instance:com.TestNGChallenges.CrossBrowserTesting1@130e116b]" started-at="2023-05-17T06:46:23Z" name="getOpenBrowser" finished-at="2023-05-17T06:46:26Z" duration-ms="2711" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOpenBrowser -->
+        <test-method signature="getLogIn()[pri:0, instance:com.TestNGChallenges.CrossBrowserTesting1@130e116b]" started-at="2023-05-17T06:46:26Z" name="getLogIn" finished-at="2023-05-17T06:46:28Z" duration-ms="2577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLogIn -->
+        <test-method is-config="true" signature="getCloseBrowser()[pri:0, instance:com.TestNGChallenges.CrossBrowserTesting1@130e116b]" started-at="2023-05-17T06:46:28Z" name="getCloseBrowser" finished-at="2023-05-17T06:46:29Z" duration-ms="603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCloseBrowser -->
+      </class> <!-- com.TestNGChallenges.CrossBrowserTesting1 -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
 </testng-results>

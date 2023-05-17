@@ -1,3 +1,6 @@
 sceondtest\tn\myrunner\MyRunner.class
+com\TestNGChallenges\DependsOnMethod.class
+com\TestNGChallenges\EnableTrueFalse.class
+com\TestNGChallenges\CrossBrowserTesting1.class
 sceond\tn\hooks\Hooks.class
 sceondtest\tn\stepdefinitions\FunctionalStepDef.class
