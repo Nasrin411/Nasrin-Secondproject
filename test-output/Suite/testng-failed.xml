@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="3" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="3" name="Test3(failed)">
-    <parameter name="CrossNBrowser" value="Firefox"/>
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.TestNGChallenges.CrossBrowserTesting1">
+      <class name="com.TestNGChallenges.FailedTesting">
         <methods>
-          <include name="getLogIn"/>
-          <include name="getCloseBrowser"/>
-          <include name="getOpenBrowser"/>
+          <include name="getTestOne"/>
+          <include name="getTestFive"/>
         </methods>
-      </class> <!-- com.TestNGChallenges.CrossBrowserTesting1 -->
+      </class> <!-- com.TestNGChallenges.FailedTesting -->
     </classes>
-  </test> <!-- Test3(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
